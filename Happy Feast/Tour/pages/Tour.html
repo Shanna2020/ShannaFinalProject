@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--
+        The Tour Page displays information about all the pages on the website. Pictures and information about partcular
+        pages are displayed when the mouse is placed over the appropriate link. When the page is displayed on smaller devices(tablet/phone)
+        the background is removed and the information about the specific page is displayed closer to the link. 
+        --> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page provides a list of the menu and gives user information about pages on the site" />
+    <meta name="keyword" content="Restaurant,map site,  tour page, guide, Navigation, coffee, snack" />
+    <title>HappyFeast | TOUR</title>
+    <link rel="stylesheet" href="../styles/Tour.css"/>
+    <link rel="fav icon" href="../images/general/favicon.png">
+   
+</head>
+
+<body>
+    <header class="header_wrapper">
+        <img alt="happyfeastLogo" class="feast_logo" src="../images/general/happyfeastlogod.webp">
+    
+        <h1 class="ofo_txt">Tour Page</h1>
+        <div class="search_holder">
+            <img alt="searchIcon" src="../images/general/search.png"/>
+            <input type="text" placeholder="Search for restaurant..."/>
+        </div>
+    </header>
+    <main>
+        <div id='display'></div>  
+        <div class="wrapper">
+            <fieldset><legend>Welcome to Our Tour Page</legend>
+                <p>The Tour Page provides a brief description of all the pages of HappyFeast website. Place your mouse over 
+                a link to view more information about the page and click to navigate to the page.</p>
+                <ul class="container">
+                    <li class="item "><a href="../../HomePage/HomePage.html" onMouseOver="showText(0)" onMouseOut="hide()"><b>HOME</b></a><span> - Provides a Welcoming Interface to our website</span></li>
+                </ul>
+                <ul class="container">
+                    <li class="item item2"><a href="../../AboutUs/pages/AboutUs.html" onMouseOver="showText(1)" onMouseOut="hide()">&nbsp; * About Us</a><span> 
+                        - This page gives a brief history about Happy Feast </span></li>
+                    <li class="item item2"><a href="../../Sangeetha/pages/mealOrder.html" onMouseOver="showText(2)" onMouseOut="hide()">&nbsp; * MealOrder </a>
+                        <span>- Customers can order their meals</span></li>
+                    <li class="item item2"><a  href="../../Sangeetha/pages/orderTracking.html" onMouseOver="showText(3)" onMouseOut="hide()">&nbsp; * Order tracking</a>
+                        <span>- Customers are able to track their orders</span></li>
+                    <li class="item item2"><a href="../../ContactUs/pages/ContactUs.html" onMouseOver="showText(4)" onMouseOut="hide()">&nbsp; * ContactUs</a>
+                        <span>- A form is provided for customer to contact Happy Feast</span></li>
+                    <li class="item item2"><a href="../../Feedback/feedback.html" onMouseOver="showText(5)" onMouseOut="hide()">&nbsp; * Feedback</a>
+                        <span>- Customers are able to provide their feedback</span></li>
+                    <li class="item item2"><a href="../../Review/review.html" onMouseOver="showText(6)" onMouseOut="hide()">&nbsp; * Review and rating</a>
+                        <span>- This page facilitates the review of the restaurant</span></li>
+                    <li class="item item2"><a href="../../discountcalculator/index.html" onMouseOver="showText(7)" onMouseOut="hide()">&nbsp; * Discount</a>
+                    <span>- discounts and special are displayed on this page</span></li>
+                    
+                    <li class="item item2"><a href="../../Tour/pages/Tour.html" onMouseOver="showText(8)" onMouseOut="hide()">&nbsp; * Tour</a>
+                        <span>- Tour Page provide an overview of each page</span>
+                    </li>
+                    <li class="item item2"><a href="../../filterpage/index.html" onMouseOver="showText(9)" onMouseOut="hide()">&nbsp; * Filter</a>
+                        <span >- Customers are given the option to filter information</span></li>
+                    <li class="item item2"><a href="../../gamepage/game.html" onMouseOver="showText(10)" onMouseOut="hide()">&nbsp; * Game</a>
+                        <span>- Provides games for our customers</span></li>
+                    <li class="item item2"><a  href="../../Membership/membership.html" onMouseOver="showText(11)" onMouseOut="hide()">&nbsp; * Membership</a>
+                        <span>- Customers may become members of HappyFeast</span></li>
+                    <li class="item item2"><a  href="../../CareerPage/CareerPage.html" onMouseOver="showText(12)" onMouseOut="hide()">&nbsp; * Career</a>
+                        <span>- Vacancies are posted on this page</span></li>
+                </ul>
+            </fieldset>
+        </div>
+</main>
+ <script src="../js/tour.js"></script>
+<footer>
+    <span class="copyright_text">Copyright &copy; 2020 HappyFeast</span>
+        <div class="social_site_icons">
+            <img alt="facebook" src="../images/general/facebook.png">
+            <img alt="google" src="../images/general/google.png">
+            <img alt="twitter" src="../images/general/twitter.png">
+        </div>
+</footer>
+</body>
+</html>

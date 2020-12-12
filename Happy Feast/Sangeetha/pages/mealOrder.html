@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HappyFeast</title>
+        <link rel="stylesheet" href="../styles/mealOrder.css"/>
+        <link rel="fav icon" href="../images/general/favicon.png">
+        <link rel="stylesheet" href="../styles/helper.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Meal ordering page">
+        <meta name="keywords" content="Meal, Restaurants">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <header class="header_wrapper">
+            <h1 class="ofo_txt">Order Food Online</h1>
+            <div class="search_holder" style="opacity: 0;">
+                <!-- <img alt="searchIcon" src="../images/general/search.png"/>
+                <input type="text" placeholder="Search for restaurant..." class="search_input"/> -->
+            </div>
+            <div class="header_img_holder"><img alt="happyfeastLogo" class="feast_logo" src="../images/general/happyfeastlogod.webp"></div>
+        </header>
+        <aside class="navigations">
+            <ul id="redirectionLinks"></ul>
+        </aside>
+        <main class="main_wrapper">
+            <div id="rest_wrapper"></div>
+        </main>
+        <footer>
+            <span class="copyright_text">Copyright &copy; 2020 HappyFeast</span>
+            <div class="social_site_icons">
+                <img alt="facebook" src="../images/general/facebook.png">
+                <img alt="google" src="../images/general/google.png">
+                <img alt="twitter" src="../images/general/twitter.png">
+            </div>
+        </footer>
+        <script src="../js/mealDisplay.js"></script>
+    </body>
+</html>
