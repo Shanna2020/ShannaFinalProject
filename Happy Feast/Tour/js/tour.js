@@ -27,7 +27,8 @@ let image=["<img src='../images/tour/homePic.jpg'/>","<img src='../images/tour/a
 
 /////////////display informtion and image/////////////////////////////////////////////////////////////////
 function showText(i){
-    content.document.getElementById("display").innerHTML="<div class=disformat>"+paragraph[i]+image[i]+"</div>";
+    document.getElementById('display').innerHTML=`<div class=disformat>${paragraph[i]}${image[i]}</div>`;
+  
 }
 
 //////////////reset information//////////////////////////////////////////////////////////////////////////
