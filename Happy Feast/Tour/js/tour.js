@@ -17,17 +17,17 @@ let paragraph=["<p>The <b> Home Page </b>provides a Welcoming Interface to Happy
 "<p>The <b>Career Page </b> advertise all vacancies within the organization </p>"
 ];
 
-let image=["<img src='./images/tour/homePic.jpg'/>","<img src='../images/tour/aboutPic.jpg'/>",
+let image=["<img src='../images/tour/homePic.jpg'/>","<img src='../images/tour/aboutPic.jpg'/>",
 "<img src='../images/tour/orderPic.jpg'/>","<img src='../images/tour/trackPic.jpg'/>",
 "<img src='../images/tour/contactPic.jpg'/>","<img src='../images/tour/Feedback.jpg'/>",
 "<img src='../images/tour/Review.jpg'/>","<img src='../images/tour/discountPic.jpg'/>",
 "<img src='../images/tour/tourPic.jpg'/>","<img src='../images/tour/filterPic.jpg'/>",
-"<img src='../images/tour/gamePic.jpg'/>","<img 'src=../images/tour/Membership.jpg'/>",
+"<img src='../images/tour/gamePic.jpg'/>","<img src='../images/tour/Membership.jpg'/>",
 "<img src='../images/tour/CareerPic.jpg'/>"];
 
 /////////////display informtion and image/////////////////////////////////////////////////////////////////
 function showText(i){
-    document.getElementById("display").innerHTML="<div class=disformat>"+image[i]+"</div>";
+    content.document.getElementById("display").innerHTML="<div class=disformat>"+paragraph[i]+image[i]+"</div>";
 }
 
 //////////////reset information//////////////////////////////////////////////////////////////////////////
