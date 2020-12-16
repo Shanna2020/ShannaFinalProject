@@ -19,11 +19,11 @@ let paragraph=["<p>The <b> Home Page </b>provides a Welcoming Interface to Happy
 
 let image=/*'@Url.document("~/images/tour/homePic.jpg")';*/["<img src='~/images/tour/aboutPic.jpg'/>",
 "<img src='../images/tour/orderPic.JPG'/>","<img src='~/images/tour/trackPic.JPG'/>",
-"<img src='../images/tour/contactPic.jpg'/>","<img src='../images/tour/Feedback.jpg'/>",
+'<img alt="contactPic" src="../images/tour/contactPic.JPG"/>',"<img src='../images/tour/Feedback.jpg'/>",
 "<img src='../images/tour/Review.jpg'/>","<img src='../images/tour/discountPic.jpg'/>",
 "<img src='../images/tour/tourPic.jpg'/>","<img src='../images/tour/filterPic.jpg'/>",
 "<img src='../images/tour/gamePic.jpg'/>","<img src='../images/tour/Membership.jpg'/>",
-"<img src='../images/tour/CareerPic.jpg'/>"];
+"<img src='../images/tour/CareerPic.jpg'/>"];//<img alt="contactPic" src="../images/tour/contactPic.JPG"/>
 
 /////////////display informtion and image/////////////////////////////////////////////////////////////////
 function showText(i){
