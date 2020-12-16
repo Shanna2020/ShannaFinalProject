@@ -128,15 +128,17 @@ form textarea{
 @media only screen and (max-width: 767px) {
       
 main {
+    margin:0 auto;
     margin-top:20%;
-    margin-left: 10%;
-    margin-right: auto;
-    /*min-width: 470px;*/
+   /* margin-left: 10%;
+    margin-right: auto;*/
+    
     height:auto;
 }
     
 form { 
     width: 75%;  
+    margin:0 auto;
         
 }
 .search_holder input{
@@ -164,6 +166,7 @@ h2{
    text-align: center;
    font-size: 200%;
    width: 87%;
+   margin-left: 2%;
 }
     
 }
